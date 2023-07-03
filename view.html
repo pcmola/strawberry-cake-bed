@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript"> 
+        var imgArray = new Array(); 
+        var totalCnt = 12;
+        for(var i = 0; i < totalCnt; i++) {
+            imgArray[i] = "img/img_"+(i+1)+".jpg"; 
+        }
+        
+        var imgNum = 0;
+        function showImage() { 
+            var objImg = document.getElementById("introimg");
+            objImg.src = imgArray[imgNum]; 
+            imgNum++;
+            imgNum = (imgNum>=totalCnt)?0:imgNum;
+            setTimeout(showImage, 4000); 
+        }
+    </script>
+	    <style>
+
+        .box1 { margin: 17px 0px 5px 5px;}
+        .box-auto {
+            margin:10 auto;  /* 너비 값을 뺀 나머지 공간의 좌우 마진을 똑같이 맞춥니다. */
+        }
+    </style>
+</head>
+
+<body onload="showImage()" class="box1"> 
+    <img id="introimg" border="0" width="790">
+</body>
+
+</html>
