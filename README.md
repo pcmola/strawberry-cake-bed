@@ -2,7 +2,7 @@
 - 딸아이가 스케치한 그림을 바탕으로 레고 작품을 만들었습니다.
 
 ## 작품 설명 페이지
-https://blog.naver.com/pcmola/222588494320
+- https://blog.naver.com/pcmola/222588494320
 
 ## 이미지
 ![20211114＿135403](https://github.com/pcmola/strawberry-cake-bed/assets/20479087/2f23e4d9-39f3-484c-82e9-ce9444ca1675)
